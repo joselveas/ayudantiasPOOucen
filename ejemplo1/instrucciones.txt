@@ -1,0 +1,25 @@
+1 -> crear clase Persona con atributos nombre(string), edad(int) y rut(string).
+
+2 -> crear constructor vacio y canstructor con todos los atributos para la clase Persona.
+
+3 -> generar setters y getters para cada a tributo de Persona.
+
+4 -> crear clase Alumno y Profesor que heredan de Persona (extends) *recordar generar los super() en los constructores.
+
+5 -> agregar atributos especiales a las clases de alumno y profesor:
+    agregar sueldo(int) a Profesor (agregar getter y setter y añadirlo al constructor)
+    agregar notaFinal(double) a Alumno (agregar getter y setter y añadirlo al constructor)
+
+6-> crear 2 objetos del tipo Persona en main (persona1 y persona 2).
+
+7 -> inicializar persona1 como new alumno con constructor vacio y persona2 como profesor con constructor vacio.
+
+8 -> agregar datos ambos objetos (solo nombre, edad y rut).
+
+9 -> imprimir información por consola.
+
+10 -> intentar agregar nota final a alumno y explicar que no se puede porque es un objeto del tipo persona que fue instanciado como alumno.
+
+11 -> realizar casteo de clases (lineas 24 y 25 de main) para poder ocupar atributos
+
+12 -> imprimir información restante.
