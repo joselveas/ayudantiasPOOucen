@@ -23,3 +23,5 @@
 11 -> realizar casteo de clases (lineas 24 y 25 de main) para poder ocupar atributos
 
 12 -> imprimir información restante.
+
+13 -> utilizar debugger para probar código.

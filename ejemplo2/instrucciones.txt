@@ -1,0 +1,7 @@
+1 -> crear clase Persona con atributos nombre(string) y edad(int).
+
+2 -> crear constructor vacio y canstructor con todos los atributos para la clase Persona.
+
+3 -> generar setters y getters para cada a tributo de Persona.
+
+
