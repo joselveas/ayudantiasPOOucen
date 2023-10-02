@@ -1,0 +1,26 @@
+Crea una clase Cliente con los siguientes atributos:
+
+    Nombre -> tipo string
+    Puntos acumulados -> tipo int
+
+Ahora, implementa los siguientes métodos:
+
+- Constructor vacío
+- Constructor que recibe nombre e inicializa puntos en 0
+- Método para ver los puntos de un Cliente
+- Método para realizar una compra donde recibe un monto de compra
+    * Se debe verificar que el monto de compra sea >= 0
+    * Cliente obtiene puntos por cada compra realizada donde los puntos son: montoCompra/100
+- Método para canjear puntos que recibe la cantidad de puntos a canjear y el monto de la compra
+    * Se debe verificar que el monto de compra sea >= 0
+    * Se tiene que verificar que los puntos del cliente sean suficientes
+    * En caso de que la compra llegue a costo 0 (por ejemplo gastar 1000 puntos en una compra de $500) al momento de canjear los puntos
+    se deben devolver los puntos restantes (en el caso anterior sobraron 500 puntos que se deben sumar a los puntos del cliente)
+- Dentro de main se debe primero preguntar por el nombre del cliente y crear un nuevo objeto con él.
+- Se debe crear un menu contextual con las siguientes opciones
+    1. Comprar producto
+    2. Canjear puntos
+    3. Ver puntos
+    4. Salir
+- Realizar salidas por pantalla para avisar cuando el cliente no tiene suficientes, puntos, para preguntar por montos de compra o puntos.
+- En caso de que un monto de compra sea menor a 0, se debe informar a cliente que las compras deben ser de un valor positivo.
