@@ -6,4 +6,21 @@
 
 3 -> generar setters y getters para cada a tributo de Persona.
 
+4 -> generar interfaz SeComunica en clase persona con las funciones hablar y gritar.
+
+5 -> implementar la interfaz en clase Persona y crear metodos hablar y gritar que impriman alguna frase por consola.
+
+6 -> crear las clases Adulto y Adolescente que extienden de la clase Persona.
+
+7 -> implementar los metodos hablar y gritar en cada clase con alguna frase descriptiva por consola.
+
+8 -> generar objetos del tipo Persona persona1 y persona2 e inicializar persona1 como Adulto y persona2 como Adolescente.
+
+9 -> rellenar con datos cada objeto e imprimir nombre y edad por consola.
+
+10 -> utilizar los metodos hablar y gritar de cada objeto y explicar el concepto de polimorfismo por herencia 
+        polimorfismo por herencia: 
+        cuando una clase hereda de otra clase, puede reemplazar o sobrescribir los métodos de la clase base en la clase derivada.
+        Esto significa que un objeto de la clase derivada puede utilizar sus propios métodos, pero también puede utilizar los métodos de la clase base.
+
 
