@@ -1,0 +1,22 @@
+Crea una clase Cliente con los siguientes atributos:
+
+    Nombre -> tipo string
+    Saldo en cuenta -> tipo int
+
+Ahora, implementa los siguientes métodos:
+
+- Constructor vacío
+- Constructor que recibe nombre e inicializa saldo en 0
+- Método para ver el slado de un Cliente
+- Método para realizar un deposito donde recibe el monto a depositar
+    * Se debe verificar que el monto del deposito >= 0
+- Método para realizar un retiro donde recibe el monto a retirar
+    * Se debe verificar que el monto del retiro >= 0
+    * Se tiene que verificar que el saldo del cliente sea >= monto retiro
+- Dentro de main se debe primero preguntar por el nombre del cliente y crear un nuevo objeto con él.
+- Se debe crear un menu contextual con las siguientes opciones
+    1. Depositar saldo
+    2. Retirar saldo
+    3. Ver saldo
+    4. Salir
+- En caso de que montos de retiro o deposito sea menor a 0, se debe informar a cliente que deben ser positivos.

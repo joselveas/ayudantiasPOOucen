@@ -1,4 +1,4 @@
-package ejemplo3;
+package ejemplo4;
 
 import java.util.Scanner;
 
@@ -11,27 +11,24 @@ public class ejemplo {
         boolean opcion = true;
         do{
             System.out.println("¿Qué quieres hacer?");
-            System.out.println("1. Comprar producto");
-            System.out.println("2. Canjear puntos");
-            System.out.println("3. Ver puntos");
+            System.out.println("1. Depositar dinero");
+            System.out.println("2. Retirar dinero");
+            System.out.println("3. Ver saldo");
             System.out.println("4. Salir");
             int opcion2 = sc.nextInt();
             switch(opcion2){
                 case 1:
-                    System.out.println("Introduce el monto de la compra");
-                    int montoCompra = sc.nextInt();
-                    cliente.realizarCompra(montoCompra);
+                    System.out.println("Introduce el monto del deposito");
+                    int monto = sc.nextInt();
+                    cliente.realizarDeposito(monto);
                     break;
                 case 2:
-                    System.out.println("Introduce los puntos que quieres canjear");
-                    int puntos = sc.nextInt();
-                    System.out.println("Introduce el monto de la compra");
-                    int montoCompra2 = sc.nextInt();
-                    cliente.canjearPuntos(puntos,montoCompra2);
+                    System.out.println("Introduce el monto del retiro");
+                    int monto2 = sc.nextInt();
+                    cliente.realizarRetiro(monto2);
                     break;
                 case 3:
-                    int puntos2 = cliente.getPuntosAcumulados();
-                    System.out.println("Tienes " + puntos2 + " puntos");
+                    System.out.println("Tu saldo es de " + cliente.getSaldoCuenta());
                     break;
                 case 4:
                     opcion = false;

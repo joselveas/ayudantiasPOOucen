@@ -1,0 +1,29 @@
+- Generar un software que contenga 2 clases Cliente y Cuenta bancaria
+- La clase cliente tiene como atributos
+    Nombre -> tipo string
+    Rut -> rut de ususario
+    Cuenta Bancaria -> tipo cuentaBancaria
+    * El constructor de la clase solo recibe nombre y rut y crea automaticamente una cuenta con id = al rut de usuario.
+- La clase cuenta bancaria tiene como atributos
+    id de cuenta -> tipo String
+    saldo debito -> tipo int
+    saldo credito maximo -> tipo int
+    saldo credito actual -> tipo int
+    * El constructor de la clase recibe el id (rut de usuario), inicializa el saldo debito en 0, el saldo credito amximo y actual en 1.000.000
+
+- La clase cliente debe tener metodos para
+    - Mostrar informacion de cuenta -> "El cliente (nombre cliente) tiene una cuenta con id (id cuenta)
+    con un saldo en debito de (saldo debito) y un saldo de credito (saldo credito)"
+    - Realizar una compra -> se debe preguntar si se desea comprar con debito o credito y el monto de la compra.
+    - Pagar credito con saldo de debito.
+    - Retirar dinero de cuenta debito.
+    - Pedir avance de cuenta credito a cuenta debito.
+
+- La clase cuenta bancaria debe tener metodos para
+    - restar saldo a credito o debito.
+
+- Dentro del main primero se debe crear un cliente e inicializar con nombre y rut
+- Dentro del main se debe crear un menu contextual para poder acceder a los metodos y funciones antes mencionadas
+    (sacar dinero, pedir avance, comprar producto, etc)
+
+
