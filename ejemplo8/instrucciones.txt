@@ -1,0 +1,27 @@
+1. generar clase publica persona con atributos:
+    - String nombre
+2. generar constructor de atleta que recibe atributo nombre y constructor vacio.
+3. generar getters y setters de clase persona.
+4. generar clase atleta que deriba de persona.
+5. generar constructor de atleta que recibe nombre y constructor vacio (no olvidar los super).
+6. dentro de clase persona generar 3 metodos:
+    - void correr -> recibe double velocidadEnMetros
+    - void bicicleta -> recibe double velocidadEnMetros
+    - void nadar -> recibe double velocidadEnMetros
+7. utilizando overload, cambiar los 3 metodos anteriores, pero que ahora reciban int velocidadEnKm
+8. definir la logica de cada clase con las siguientes estadicticas:
+    - Una persona normal puede correr a un maximo de 2.8 m/s o 10 km/h
+    - Una persona normal puede andar en bicileta a un maximo de 6.9 m/s o 25 km/h
+    - Una persona normal puede nadar a un maximo de 1.2 m/s o 4 km/h
+9. utilizando overload redefinir estos metodos en la clase atleta con las siguientes estadisticas:
+    - Un atleta puede correr a un maximo de 11.6 m/s o 42 km/h
+    - Un atleta puede andar en bicileta a un maximo de 12.5 m/s o 45 km/h
+    - Un atleta puede nadar a un maximo de 2.7 m/s o 10 km/h
+10. dentro del main crear un objeto de persona y uno de atleta. 
+11. utilizar los metodos de cada clase para demostrar los ejemplos generados por overload (sobrecargar) y override (sobrescribir), por ejemplo:
+    Persona persona1 = new Persona("Pedro");
+    Persona atleta1 = new Atleta("Juan");
+    persona1.correr(10.1);
+    atleta1.correr(10.1);
+    persona1.correr(10);
+    atleta1.correr(20);
