@@ -1,0 +1,27 @@
+Dada la siguiente clase SopaLetras que tiene como atributos, constructor y métodos:
+    - char[][] sopa -> matriz de caracteres.
+    - int filas, columnas -> altura y anchura de matriz.
+    - public SopaLetras(int filas, int columnas) -> setea info de filas y columnas para inicializar matriz.
+    - getters y setters correspondientes.
+
+Realizar métodos para:
+    - imprimir matriz mediante consola, este método no recibe nada y utiliza el atributo "sopa" para realizar la impresión
+        public void imprimirSopa(){}
+    - buscar una palabra dentro de la sopa e imprimir las coordenadas de los caracteres iniciales y finales.
+        public void encontrarPalabra(String palabra){}
+
+Utilizar como ejemplo la siguiente matriz:
+
+{'E', 'H', 'G', 'Y', 'A', 'R'}
+{'L', 'O', 'I', 'W', 'B', 'P'}
+{'T', 'M', 'X', 'K', 'J', 'C'}
+{'U', 'N', 'Q', 'Z', 'D', 'F'}
+{'V', 'S', 'H', 'O', 'L', 'A'}
+
+Donde se debe encontrar la palabra "HOLA", la función debería devolver:
+
+"Se encontró la palabra HOLA que inicia en la posición (4,2) y termina en la posición (4,5)"
+
+ó
+
+"No se encontró la palabra buscada"
