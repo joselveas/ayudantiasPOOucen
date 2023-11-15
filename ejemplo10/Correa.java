@@ -8,15 +8,14 @@ public class Correa{
     public Correa(){
         correaTransportadora = new ArrayList<>();
     }
-    public Correa(String nombre){
-        this.nombre = nombre;
-        correaTransportadora = new ArrayList<>();
-    }
     public void addTransporte(Object transporte){
         correaTransportadora.add(transporte);
     }
     public void removeTransporte(Object transporte){
         correaTransportadora.remove(transporte);
+    }
+    public void removeTransporte(int indice){
+        correaTransportadora.remove(indice);
     }
     public ArrayList<Object> getCorrea(){
         return this.correaTransportadora;
@@ -25,6 +24,6 @@ public class Correa{
         return this.nombre;
     }
     public void setNombre(String nombre){
-        
+        this.nombre = nombre;
     }
 }

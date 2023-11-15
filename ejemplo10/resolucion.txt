@@ -1,0 +1,149 @@
+1 .-  Modificación en class Correa:
+
+private String nombre;
+private ArrayList<Object> correaTransportadora;
+private ArrayList<String> tipoObjeto;
+private int cantidadCobre;
+private int cantidadPlata;
+private int cantidadOro;
+public Correa(){
+    cantidadCobre = 0;
+    cantidadPlata = 0;
+    cantidadOro = 0;
+    correaTransportadora = new ArrayList<>();
+    tipoObjeto = new ArrayList<>();
+}
+public void addTransporte(Object transporte){
+    correaTransportadora.add(transporte);
+}
+public void removeTransporte(Object transporte){
+    correaTransportadora.remove(transporte);
+}
+public void removeTransporte(int indice){
+    correaTransportadora.remove(indice);
+}
+public ArrayList<Object> getCorrea(){
+    return this.correaTransportadora;
+}
+public String getNombre(){
+    return this.nombre;
+}
+public void setNombre(String nombre){
+    this.nombre=nombre;    
+}
+public int getCantidadCobre(){
+    return this.cantidadCobre;
+}
+public int getCantidadPlata(){
+    return this.cantidadPlata;
+}
+public int getCantidadOro (){
+    return this.cantidadOro;
+}
+public void addMineral(String nombre){
+    if(nombre == "Cobre"){
+        cantidadCobre++;
+    }else if(nombre == "Plata"){
+        cantidadPlata++;
+    }else{
+        cantidadOro++;
+    }
+}
+public void addTipo(String tipo){
+    tipoObjeto.add(tipo);
+}
+public void removeTipo(String tipo){
+    tipoObjeto.remove(tipo);
+}
+public void removeTipo(int indice){
+    tipoObjeto.remove(indice);
+}
+public ArrayList<String> getTipos(){
+    return this.tipoObjeto;
+}
+
+
+2 .-   dentro de void main en class Main:
+
+Correa correa1 = new Correa();
+Correa correa2 = new Correa();
+Correa correa3 = new Correa();
+
+Piedra p1 = new Piedra();
+Piedra p2 = new Piedra();
+Piedra p3 = new Piedra();
+Piedra p4 = new Piedra();
+
+Basura b1 = new Basura();
+Basura b2 = new Basura();
+Basura b3 = new Basura();
+Basura b4 = new Basura();
+
+Mineral m1 = new Mineral("Cobre");
+Mineral m2 = new Mineral("Plata");
+Mineral m3 = new Mineral("Oro");
+Mineral m4 = new Mineral("Cobre");
+Mineral m5 = new Mineral("Plata");
+Mineral m6 = new Mineral("Oro");
+
+correa1.addTransporte(p1);
+correa1.addTipo("Piedra");
+correa1.addTransporte(b1);
+correa1.addTipo("Basura");
+correa1.addTransporte(m1);
+correa1.addTipo("Mineral");
+correa1.addTransporte(p2);
+correa1.addTipo("Piedra");
+correa1.addTransporte(b2);
+correa1.addTipo("Basura");
+correa1.addTransporte(m2);
+correa1.addTipo("Mineral");
+correa1.addTransporte(p3);
+correa1.addTipo("Piedra");
+correa1.addTransporte(b3);
+correa1.addTipo("Basura");
+correa1.addTransporte(m3);
+correa1.addTipo("Mineral");
+correa1.addTransporte(m4);
+correa1.addTipo("Mineral");
+correa1.addTransporte(p4);
+correa1.addTipo("Piedra");
+correa1.addTransporte(b4);
+correa1.addTipo("Basura");
+correa1.addTransporte(m5);
+correa1.addTipo("Mineral");
+correa1.addTransporte(m6);
+correa1.addTipo("Mineral");
+
+
+
+3 .-  agragar funciones class Main:
+
+public static void movimientoCorreas(Correa correa1, Correa correa2, Correa correa3){
+    ArrayList<Object> auxCorreaObject = correa1.getCorrea();
+    ArrayList<String> auxCorreaTipo = correa1.getTipos();
+    int cantidadBasura = 0;
+    int cantidadPiedras = 0;
+    for(int i = 0; i < auxCorreaObject.size() ; i++){
+        if(auxCorreaTipo.get(i)  == "Piedra"){
+            cantidadPiedras++;
+            correa2.addTransporte(auxCorreaObject.get(i));
+            correa2.addTipo("Piedra");
+            System.out.println("Se mueve piedra de correa 1 en posicion "+i+" a correa 2");
+        }else if(auxCorreaTipo.get(i)  == "Mineral"){
+            Mineral aux = (Mineral) auxCorreaObject.get(i);
+            correa3.addTransporte(aux);
+            correa3.addMineral(aux.getNombre());
+            correa3.addTipo("Mineral");
+            System.out.println("Se mueve mineral de correa 1 en posicion "+i+" a correa 3");
+        }else{
+            cantidadBasura++;
+            System.out.println("Se encuentra basura en correa 1, se deja en correa");
+        }
+    }
+    System.out.println("La cantidad de basura es: "+ cantidadBasura);
+    System.out.println("La cantidad de piedras es: "+ cantidadPiedras);
+    System.out.println("La cantidad de Cobre es: "+ correa3.getCantidadCobre());
+    System.out.println("La cantidad de Plata es: "+ correa3.getCantidadPlata());
+    System.out.println("La cantidad de Oro es: "+ correa3.getCantidadOro());
+}
