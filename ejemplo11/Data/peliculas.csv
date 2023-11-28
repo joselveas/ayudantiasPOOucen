@@ -1,0 +1,31 @@
+id,nombre,director,actor1,actor2,actor3,año,duracion
+1,Matrix,Lana Wachowski,Keanu Reeves,Carrie-Anne Moss,Laurence Fishburne,1999,136
+2,Inception,Christopher Nolan,Leonardo DiCaprio,Joseph Gordon-Levitt,Ellen Page,2010,148
+3,Pulp Fiction,Quentin Tarantino,John Travolta,Samuel L. Jackson,Uma Thurman,1994,154
+4,The Shawshank Redemption,Frank Darabont,Tim Robbins,Morgan Freeman,Bob Gunton,1994,142
+5,Forrest Gump,Robert Zemeckis,Tom Hanks,Robin Wright,Gary Sinise,1994,142
+6,The Dark Knight,Christopher Nolan,Christian Bale,Heath Ledger,Aaron Eckhart,2008,152
+7,Schindler's List,Steven Spielberg,Liam Neeson,Ben Kingsley,Ralph Fiennes,1993,195
+8,Fight Club,David Fincher,Edward Norton,Brad Pitt,Helena Bonham Carter,1999,139
+9,The Godfather,Francis Ford Coppola,Marlon Brando,Al Pacino,James Caan,1972,175
+10,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,Elijah Wood,Ian McKellen,Viggo Mortensen,2001,178
+11,Inglourious Basterds,Quentin Tarantino,Brad Pitt,Mélanie Laurent,Christoph Waltz,2009,153
+12,The Matrix Reloaded,Lana Wachowski,Keanu Reeves,Laurence Fishburne,Carrie-Anne Moss,2003,138
+13,The Matrix Revolutions,Lana Wachowski,Keanu Reeves,Laurence Fishburne,Carrie-Anne Moss,2003,129
+14,Saving Private Ryan,Steven Spielberg,Tom Hanks,Matt Damon,Tom Sizemore,1998,169
+15,The Silence of the Lambs,Jonathan Demme,Jodie Foster,Anthony Hopkins,Scott Glenn,1991,118
+16,Gone with the Wind,Victor Fleming,Clark Gable,Vivien Leigh,Thomas Mitchell,1939,238
+17,The Great Gatsby,Baz Luhrmann,Leonardo DiCaprio,Carey Mulligan,Tobey Maguire,2013,143
+18,Citizen Kane,Orson Welles,Orson Welles,Joseph Cotten,Dorothy Comingore,1941,119
+19,Casablanca,Michael Curtiz,Humphrey Bogart,Ingrid Bergman,Paul Henreid,1942,102
+20,The Shining,Stanley Kubrick,Jack Nicholson,Shelley Duvall,Danny Lloyd,1980,146
+21,The Departed,Martin Scorsese,Leonardo DiCaprio,Matt Damon,Jack Nicholson,2006,151
+22,Avatar,James Cameron,Sam Worthington,Zoe Saldana,Sigourney Weaver,2009,162
+23,The Social Network,David Fincher,Jesse Eisenberg,Andrew Garfield,Justin Timberlake,2010,120
+24,Braveheart,Mel Gibson,Mel Gibson,Sophie Marceau,Patrick McGoohan,1995,178
+25,The Revenant,Alejandro G. Iñárritu,Leonardo DiCaprio,Tom Hardy,Domhnall Gleeson,2015,156
+26,The Wolf of Wall Street,Martin Scorsese,Leonardo DiCaprio,Jonah Hill,Margot Robbie,2013,180
+27,For a Few Dollars More,Sergio Leone,Clint Eastwood,Lee Van Cleef,Gian Maria Volontè,1965,132
+28,The Green Mile,Frank Darabont,Tom Hanks,Michael Clarke Duncan,David Morse,1999,189
+29,A Beautiful Mind,Ron Howard,Russell Crowe,Ed Harris,Jennifer Connelly,2001,135
+30,Interstellar,Christopher Nolan,Matthew McConaughey,Anne Hathaway,Jessica Chastain,2014,169

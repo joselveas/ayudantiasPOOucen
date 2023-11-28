@@ -1,0 +1,16 @@
+id,nombre,correo,contraseña,edad
+1,Ana,ana@email.com,clave123,25
+2,Beto,beto@email.com,segura456,30
+3,Carlos,carlos@email.com,contra789,22
+4,Diana,diana@email.com,clave456,28
+5,Enrique,enrique@email.com,segura789,35
+6,Flor,flor@email.com,contra123,27
+7,Gabriel,gabriel@email.com,clave789,31
+8,Helena,helena@email.com,segura123,24
+9,Ivan,ivan@email.com,contra456,29
+10,Julia,julia@email.com,clave123,26
+11,Kevin,kevin@email.com,segura456,32
+12,Laura,laura@email.com,contra789,23
+13,Mario,mario@email.com,clave456,33
+14,Natalia,natalia@email.com,segura789,28
+15,Olga,olga@email.com,contra123,27
