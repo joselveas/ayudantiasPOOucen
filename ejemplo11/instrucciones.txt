@@ -1,0 +1,33 @@
+// esto está listo
+1.- generar los siguientes csv:
+    - usuarios.csv -> id,nombre,correo,contraseña,edad
+    - peliculas.csv -> id,nombre,director,actor1,actor2,actor3,año,duracion
+    - relacion_usuarios_peliculas -> id,id_usuario,id_pelicula
+2.- generar las clases para usuario y pelicula con los atributos antes nombrados y metodos 
+3.- generar una clase data que contenga:
+    - arraylist de usuario
+    - arraylist de pelicula
+    - string para directorio de peliculas
+    - string para directorio de usuarios
+    - agregar a arraylist
+    - eliminar de arraylist
+    - buscar en arraylist
+    - devolver arraylist
+    - set de directorios
+    - poblar arraylist
+    - guardar arraylist
+4. Generar clase menu que contenga:
+    - metodo para imprimir lista de peliculas
+    - metodo para imprimir lista de usuarios
+    - metodo "menu" que imprime las opciones posibles y abre un scanner para obtener la información ingresada y retorna la opcion
+5.- Generar clase controlador que inicializa todas las clases, transforma los arraylist de usuarios y peliculas en array de string y tiene la logica para llamar al menu y responder segun la opción retornada.
+6.- Generar main que inicializa el controlador con los directorios de peliculas e inicia el programa.
+//falta por hacer (tarea?)
+7.- generar opcion en menu para agregar usuario o pelicula con los atributos necesarios y que se guarden en archivos
+8.- generar opcion en menu para que dado un usario, ver que peliculas ha visto (hay que generar los cambios apra leer y guardar el archivo relacion_usuarios_peliculas.csv)
+9.- hacer un login
+10.- que un usuario pueda ver una pelicula
+11.- modificar las listas de usuarios y peliculas para que solo aparezca el nombre, que se peuda escoger una y que muestre más información.
+
+
+Si pueden hacer todo esto, estan listos para la prueba.

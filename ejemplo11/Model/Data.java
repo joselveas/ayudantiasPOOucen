@@ -64,7 +64,7 @@ public class Data {
             String linea;
             while((linea = lector.readLine())!= null){
                 String [] datos = linea.split(",");
-                Usuario usuario = new Usuario(Integer.valueOf(datos[0]),datos[1],datos[2],datos[3],Integer.valueOf(datos[6]));
+                Usuario usuario = new Usuario(Integer.valueOf(datos[0]),datos[1],datos[2],datos[3],Integer.valueOf(datos[4]));
                 usuarios.add(usuario);
             }
             lector.close();
